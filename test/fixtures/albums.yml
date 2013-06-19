@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  released: 2013-06-18
+
+two:
+  title: MyString
+  released: 2013-06-18

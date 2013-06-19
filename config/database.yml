@@ -1,0 +1,26 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: debuggr_development
+  pool: 5
+  username: janesternbach
+  host: localhost
+  password:
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: debuggr_test
+  pool: 5
+  username: janesternbach
+  host: localhost
+  password:
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: debuggr_production
+  pool: 5
+  username: janesternbach
+  host: localhost
+  password:
