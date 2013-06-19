@@ -27,7 +27,7 @@ class SongsController < ApplicationController
   def create
     @song = Song.new(params[:song]
 
-    redirect_to @song, notice: 'Song was successfully created.'
+    redirect_to roots_path, notice: 'Song was successfully created.'
     render action: "new"
 
   end

@@ -1,8 +1,8 @@
 Debuggr::Application.routes.draw do
-  resources :songs
+  resource :songs
 
 
   resources :albums
 
-  root :to => 'albums#index'
+  root :to => 'album#index'
 end
